@@ -78,7 +78,7 @@ function someFn(arg) {
 /************************************************************************/
 var __webpack_exports__ = {};
 /*!**********************!*\
-  !*** ./src/index.ts ***!
+  !*** ./src/index.tsx ***!
   \**********************/
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _test__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./test */ "./src/test.ts");
