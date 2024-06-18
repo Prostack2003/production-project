@@ -1,5 +1,5 @@
-export function someFn(arg: number): string {
-    console.log('Random!')
-    return ''
-}
+import {someFn} from "./test";
 
+someFn(123)
+
+document.body.innerHTML = "<div>Test</div>"

@@ -1,3 +1,4 @@
-import {someFn} from "./index";
-
-someFn(123)
+export function someFn(arg: number): string {
+    console.log('Random!')
+    return ''
+}
