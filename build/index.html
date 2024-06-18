@@ -1,13 +1,59 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-<script defer src="main.01652730ccbb4c72f7ca.js"></script></head>
-<body>
-    <div class="root"></div>
-</body>
-</html>
+<head><script defer src="main.01652730ccbb4c72f7ca.js"></script></head>Html Webpack Plugin:
+<pre>
+  Error: Child compilation failed:
+  Module not found: Error: Can't resolve 'C:\Important Files\Projects\production-project  \config\build\public\index.html' in 'C:\Important Files\Projects\production-project'
+  ModuleNotFoundError: Module not found: Error: Can't resolve 'C:\Important Files\Projec  ts\production-project\config\build\public\index.html' in 'C:\Important Files\Projects\  production-project'
+      at C:\Important Files\Projects\production-project\node_modules\webpack\lib\Compila  tion.js:2100:28
+      at C:\Important Files\Projects\production-project\node_modules\webpack\lib\NormalM  oduleFactory.js:904:13
+      at eval (eval at create (C:\Important Files\Projects\production-project\node_modul  es\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:10:1)
+      at C:\Important Files\Projects\production-project\node_modules\webpack\lib\NormalM  oduleFactory.js:341:22
+      at eval (eval at create (C:\Important Files\Projects\production-project\node_modul  es\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:9:1)
+      at C:\Important Files\Projects\production-project\node_modules\webpack\lib\NormalM  oduleFactory.js:518:22
+      at C:\Important Files\Projects\production-project\node_modules\webpack\lib\NormalM  oduleFactory.js:151:11
+      at C:\Important Files\Projects\production-project\node_modules\webpack\lib\NormalM  oduleFactory.js:776:25
+      at C:\Important Files\Projects\production-project\node_modules\webpack\lib\NormalM  oduleFactory.js:988:8
+      at C:\Important Files\Projects\production-project\node_modules\webpack\lib\NormalM  oduleFactory.js:1118:5
+  
+  - Compilation.js:2100 
+    [production-project]/[webpack]/lib/Compilation.js:2100:28
+  
+  - NormalModuleFactory.js:904 
+    [production-project]/[webpack]/lib/NormalModuleFactory.js:904:13
+  
+  
+  - NormalModuleFactory.js:341 
+    [production-project]/[webpack]/lib/NormalModuleFactory.js:341:22
+  
+  
+  - NormalModuleFactory.js:518 
+    [production-project]/[webpack]/lib/NormalModuleFactory.js:518:22
+  
+  - NormalModuleFactory.js:151 
+    [production-project]/[webpack]/lib/NormalModuleFactory.js:151:11
+  
+  - NormalModuleFactory.js:776 
+    [production-project]/[webpack]/lib/NormalModuleFactory.js:776:25
+  
+  - NormalModuleFactory.js:988 
+    [production-project]/[webpack]/lib/NormalModuleFactory.js:988:8
+  
+  - NormalModuleFactory.js:1118 
+    [production-project]/[webpack]/lib/NormalModuleFactory.js:1118:5
+  
+  - child-compiler.js:174 
+    [production-project]/[html-webpack-plugin]/lib/child-compiler.js:174:18
+  
+  - Compiler.js:625 finalCallback
+    [production-project]/[webpack]/lib/Compiler.js:625:5
+  
+  - Compiler.js:660 
+    [production-project]/[webpack]/lib/Compiler.js:660:11
+  
+  - Compiler.js:1349 
+    [production-project]/[webpack]/lib/Compiler.js:1349:17
+  
+  
+  - task_queues:95 processTicksAndRejections
+    node:internal/process/task_queues:95:5
+  
+</pre>
