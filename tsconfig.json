@@ -8,6 +8,7 @@
     "allowJs": true,
     "moduleResolution": "node",
 //    "baseUrl": ".",
+    "module": "esnext",
     "allowSyntheticDefaultImports" : true,
     "esModuleInterop" : true
   },
