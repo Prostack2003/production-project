@@ -8,7 +8,7 @@ import {MainPage} from "pages/MainPage";
 
 const App = () => {
     const {theme, toggleTheme} = useTheme();
-
+    const foo = "it's time to master!"
     return (
         <div className={classNames('app', {hovered:true, selected: true}, [theme])}>
             <button onClick={toggleTheme}>Change Theme</button>
