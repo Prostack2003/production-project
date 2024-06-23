@@ -1,0 +1,16 @@
+.header__navbar {
+  width: 100%;
+  height: var(--navbar-height);
+  background: var(--inverted-bg-color);
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.header__links {
+  margin-left: auto;
+}
+
+.header__main-link {
+  margin-right: 15px;
+}

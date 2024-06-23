@@ -1,0 +1,14 @@
+.AppLink {
+  // Общие стили для всех ссылок
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+.primary {
+  color: var(--primary-color);
+}
+
+.secondary {
+  color: var(--inverted-primary-color);
+}
