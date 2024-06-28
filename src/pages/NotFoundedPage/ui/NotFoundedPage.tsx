@@ -11,7 +11,7 @@ interface NotFoundedPageProps {
 export const NotFoundedPage = ({ className }: NotFoundedPageProps) => {
     const { t } = useTranslation();
     return (
-        <div className={classNames('NotFoundedPage', {}, [className])}>
+        <div className={classNames('not__founded-page', {}, [className])}>
             {t('Страница не найдена')}
         </div>
     );
