@@ -7,6 +7,7 @@ import { NavBar } from 'widgets/NavBar';
 import { Sidebar } from 'widgets/Sidebar';
 
 const App = () => {
+    const foo = 'it is time to update!';
     const { theme } = useTheme();
     return (
         <Suspense fallback="">
